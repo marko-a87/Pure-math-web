@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/images/938509_good-quality-background-images-made-to-be-your-backgrounds_1920x1080_h.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top:25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.logo img{
+    float:left;
+    width:300px;
+    height:auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li a:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+
+ul li.active a{
+    background-color:#fff;
+    color:#000;
+}
+
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    background-color:#fff ;
+    color:#000;
+}
+
+.topic{
+    position: absolute;
+    top: 20%;
+    left:25%;
+    transform: translate(-50%, -50%);
+}
+
+.topic h1{
+    color: gold;
+    font-size: 40px;
+}
+
+.text{
+    position:absolute;
+    top: 45%;
+    left:40%;
+    text-align: justify;
+    transform: translate(-61%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+a{
+    color:orange;
+}
+
+.topic2{
+    position: absolute;
+    top: 20%;
+    left:10%;
+    transform: translate(-61%, -50%);
+}
+
+.topic2 h1{
+    color: gold;
+    font-size: 40px;
+}
+
+.text2{
+    position:absolute;
+    top: 50%;
+    left:40%;
+    text-align: justify;
+    transform: translate(-61%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.topic3{
+    position: absolute;
+    top: 20%;
+    left:5%;
+    transform: translate(-25%, -50%);
+}
+
+.topic3 h1{
+    color: gold;
+    font-size: 40px;
+}
+
+.text3{
+    position:absolute;
+    top: 53%;
+    left:40%;
+    text-align: justify;
+    transform: translate(-61%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.topic4 h1{
+    color: gold;
+    font-size: 40px;
+}
+
+.topic4{
+    position: absolute;
+    top: 20%;
+    left:5%;
+    transform: translate(-21%, -50%);
+}
+
+.text4{
+    position:absolute;
+    top: 40%;
+    left:40%;
+    text-align: justify;
+    transform: translate(-61%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.topic5 h1{
+    color: gold;
+    font-size: 40px; 
+}
+
+.topic5{
+    position: absolute;
+    top: 20%;
+    left:25%;
+    transform: translate(-66%, -50%);
+}
+
+.text5{
+    position:absolute;
+    top: 38%;
+    left:40%;
+    text-align: justify;
+    transform: translate(-61%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+a:hover{
+    color:purple;
+}
